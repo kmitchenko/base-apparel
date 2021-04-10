@@ -26,6 +26,8 @@ body {
     width: 100%;
     height: 100px;
     margin-bottom: 63px; }
+  #left #small-screen-hero {
+    display: none; }
   #left #main-text {
     text-transform: uppercase;
     font-size: 64px;
@@ -83,5 +85,57 @@ body {
   width: 100%;
   height: 100%;
   background: url("images/hero-desktop.jpg") no-repeat; }
+
+footer {
+  width: 100%;
+  text-align: center;
+  grid-column: 1 / span 2;
+  background-color: #f8bfbf33;
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+  color: #413a3a; }
+  footer a {
+    color: #f96262; }
+
+@media screen and (min-width: 375px) and (max-width: 800px) {
+  .main {
+    width: 100vw;
+    grid-template-columns: auto;
+    align-items: start; }
+    .main #left {
+      height: 84px;
+      padding: 0;
+      background: none; }
+      .main #left #logo {
+        height: 100%;
+        margin: 0; }
+      .main #left #logoPic {
+        margin: 32px 32px;
+        height: 25%; }
+      .main #left #small-screen-hero {
+        display: block;
+        width: 100%;
+        height: 250px;
+        background: url("images/hero-mobile.jpg") no-repeat;
+        background-size: cover; }
+      .main #left #main-text {
+        width: 100%;
+        font-size: 40px;
+        padding-top: 60px;
+        text-align: center; }
+      .main #left #secondary-text {
+        width: 85%;
+        margin: 12px auto;
+        line-height: 1.4;
+        color: #ce9797;
+        text-align: center; }
+      .main #left .field {
+        width: 300px;
+        height: 46px;
+        line-height: 46px;
+        margin: 35px auto; }
+    .main #right {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */
