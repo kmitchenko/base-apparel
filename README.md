@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/base-apparel-almost-pixelperfect-PC9WwTHHl)
-- Live Site URL: [Add live site URL here](https://apocalypse-suite.github.io/base-apparel/)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/base-apparel-almost-pixelperfect-PC9WwTHHl)
+- Live Site URL: [Base Apparel coming soon](https://apocalypse-suite.github.io/base-apparel/)
 
 ## My process
 
